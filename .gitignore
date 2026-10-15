@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files
+data/raw/*
+data/processed/*
+
+# Trained model artifacts
+models/*
+
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/dist/
+
+# Operating system
+.DS_Store
+
+# Logs
+*.log
