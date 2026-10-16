@@ -1,0 +1,72 @@
+{
+    "testing_rows": 42443,
+    "total_errors": 998,
+    "overall_error_rate_percent": 2.3513889216125157,
+    "length_groups": [
+        {
+            "length_group": "1-500",
+            "total_emails": 14646,
+            "safe_emails": 5653,
+            "malicious_labeled_emails": 8993,
+            "total_errors": 434,
+            "overall_error_rate_percent": 2.9632664208657653,
+            "false_positives": 292,
+            "false_positive_rate_percent": 5.165398903237219,
+            "false_negatives": 142,
+            "false_negative_rate_percent": 1.579005893472701
+        },
+        {
+            "length_group": "501-1000",
+            "total_emails": 10002,
+            "safe_emails": 5389,
+            "malicious_labeled_emails": 4613,
+            "total_errors": 174,
+            "overall_error_rate_percent": 1.7396520695860829,
+            "false_positives": 86,
+            "false_positive_rate_percent": 1.5958433846724809,
+            "false_negatives": 88,
+            "false_negative_rate_percent": 1.9076522870149577
+        },
+        {
+            "length_group": "1001-2000",
+            "total_emails": 8387,
+            "safe_emails": 5766,
+            "malicious_labeled_emails": 2621,
+            "total_errors": 197,
+            "overall_error_rate_percent": 2.3488732562298797,
+            "false_positives": 84,
+            "false_positive_rate_percent": 1.45681581685744,
+            "false_negatives": 113,
+            "false_negative_rate_percent": 4.311331552842427
+        },
+        {
+            "length_group": "2001-5000",
+            "total_emails": 7136,
+            "safe_emails": 4144,
+            "malicious_labeled_emails": 2992,
+            "total_errors": 142,
+            "overall_error_rate_percent": 1.9899103139013452,
+            "false_positives": 71,
+            "false_positive_rate_percent": 1.7133204633204633,
+            "false_negatives": 71,
+            "false_negative_rate_percent": 2.372994652406417
+        },
+        {
+            "length_group": "5001+",
+            "total_emails": 2272,
+            "safe_emails": 1653,
+            "malicious_labeled_emails": 619,
+            "total_errors": 51,
+            "overall_error_rate_percent": 2.244718309859155,
+            "false_positives": 32,
+            "false_positive_rate_percent": 1.9358741681790685,
+            "false_negatives": 19,
+            "false_negative_rate_percent": 3.0694668820678515
+        }
+    ],
+    "definitions": {
+        "false_positive_rate": "False positives divided by all genuinely safe emails in the same length group.",
+        "false_negative_rate": "False negatives divided by all genuinely malicious-labeled emails in the same length group."
+    },
+    "note": "Label 1 combines phishing, spam, and scam emails according to the source dataset. These results describe the test set and do not prove that email length causes classification errors."
+}

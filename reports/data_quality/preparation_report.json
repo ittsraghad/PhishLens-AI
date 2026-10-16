@@ -1,0 +1,23 @@
+{
+    "source_dataset": "Merged_Dataset.csv",
+    "processed_dataset": "data/processed/prepared_emails.csv",
+    "total_source_rows": 213189,
+    "empty_bodies_removed": 624,
+    "missing_labels_removed": 155,
+    "invalid_labels": 0,
+    "rows_written": 212410,
+    "label_distribution_before": {
+        "0.0": 113192,
+        "1.0": 99218
+    },
+    "label_distribution_after": {
+        "0.0": 113192,
+        "1.0": 99218
+    },
+    "label_meanings": {
+        "0": "Safe or legitimate email",
+        "1": "Dataset phishing label, including phishing, spam, and scam emails"
+    },
+    "duplicate_handling": "Duplicates have not been removed. They require a separate documented decision.",
+    "original_dataset_modified": false
+}

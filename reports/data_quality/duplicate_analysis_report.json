@@ -1,0 +1,23 @@
+{
+    "analysis_timestamp_utc": "2026-10-15T13:40:18.933587+00:00",
+    "dataset": "Merged_Dataset.csv",
+    "total_rows": 213189,
+    "non_empty_email_bodies": 212565,
+    "empty_email_bodies": 624,
+    "empty_labels": 772,
+    "label_distribution": {
+        "0.0": 113192,
+        "1.0": 99225
+    },
+    "unique_non_empty_email_bodies": 206912,
+    "duplicate_body_groups": 3909,
+    "repeated_occurrences_beyond_first_copy": 5653,
+    "duplicate_groups_with_conflicting_labels": 0,
+    "duplicate_groups_with_missing_labels": 15,
+    "notes": [
+        "Email bodies are compared after stripping leading and trailing whitespace.",
+        "Email text is hashed; the report does not contain the original email bodies.",
+        "Missing labels are excluded when checking for conflicting known labels.",
+        "No original dataset rows are modified or deleted."
+    ]
+}

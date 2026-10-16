@@ -33,3 +33,31 @@ frontend/dist/
 
 # Logs
 *.log
+reports/model_evaluation/misclassified_emails.csv
+
+# External evaluation datasets and cache
+data/external/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local environments
+.venv/
+.venv-*/
+
+# Local datasets and external evaluation data
+data/raw/
+data/processed/
+data/external/
+
+# Sensitive email samples
+reports/model_evaluation/misclassified_emails.csv
+
+# Keep only the baseline model for deployment
+models/*
+!models/phishlens_tfidf_logreg.joblib
+
+# Frontend build artifacts and dependencies
+frontend/node_modules/
+frontend/dist/

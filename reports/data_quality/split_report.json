@@ -1,0 +1,25 @@
+{
+    "source_dataset": "data/processed/prepared_emails.csv",
+    "train_dataset": "data/processed/train.csv",
+    "test_dataset": "data/processed/test.csv",
+    "random_seed": 42,
+    "target_test_size": 0.2,
+    "total_rows": 212410,
+    "train_rows": 169967,
+    "test_rows": 42443,
+    "train_row_percentage": 80.02,
+    "test_row_percentage": 19.98,
+    "train_unique_text_groups": 165431,
+    "test_unique_text_groups": 41358,
+    "overlapping_text_groups": 0,
+    "train_label_counts": {
+        "0": 90587,
+        "1": 79380
+    },
+    "test_label_counts": {
+        "0": 22605,
+        "1": 19838
+    },
+    "conflicting_label_groups": 0,
+    "original_dataset_modified": false
+}

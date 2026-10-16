@@ -1,0 +1,26 @@
+{
+    "source_dataset": "data/processed/train.csv",
+    "training_dataset": "data/processed/train_model.csv",
+    "validation_dataset": "data/processed/validation.csv",
+    "random_seed": 42,
+    "target_validation_size": 0.2,
+    "source_rows": 169967,
+    "training_rows": 135975,
+    "validation_rows": 33992,
+    "training_row_percentage": 80.0,
+    "validation_row_percentage": 20.0,
+    "training_unique_text_groups": 132344,
+    "validation_unique_text_groups": 33087,
+    "overlapping_text_groups": 0,
+    "conflicting_label_groups": 0,
+    "training_label_counts": {
+        "0": 72450,
+        "1": 63525
+    },
+    "validation_label_counts": {
+        "0": 18137,
+        "1": 15855
+    },
+    "original_train_dataset_modified": false,
+    "original_test_dataset_modified": false
+}

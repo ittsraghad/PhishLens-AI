@@ -1,0 +1,28 @@
+{
+    "dataset_id": "puyang2025/seven-phishing-email-datasets",
+    "dataset_card_url": "https://huggingface.co/datasets/puyang2025/seven-phishing-email-datasets",
+    "revision": "b7f3f8d99ebd4fd0af0a5afe027420e53f08d1a4",
+    "files": [
+        {
+            "filename": ".gitattributes",
+            "size_bytes": 2748
+        },
+        {
+            "filename": "README.md",
+            "size_bytes": 5495
+        },
+        {
+            "filename": "eval.parquet",
+            "size_bytes": 22684493
+        },
+        {
+            "filename": "test.parquet",
+            "size_bytes": 22746160
+        },
+        {
+            "filename": "train.parquet",
+            "size_bytes": 184408863
+        }
+    ],
+    "note": "This report contains repository metadata only. It does not download or inspect individual email records. Shared source datasets may overlap with the current training data, so this repository must not automatically be treated as an independent evaluation set."
+}

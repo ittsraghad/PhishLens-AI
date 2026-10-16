@@ -1,0 +1,25 @@
+{
+    "model": "TF-IDF + Logistic Regression",
+    "dataset": "Existing held-out test set",
+    "sample_size": 5000,
+    "random_state": 42,
+    "original_sample_accuracy_percent": 97.62,
+    "formatting_tests": {
+        "lowercase": {
+            "sample_size": 5000,
+            "changed_predictions": 0,
+            "prediction_change_rate_percent": 0.0
+        },
+        "uppercase": {
+            "sample_size": 5000,
+            "changed_predictions": 0,
+            "prediction_change_rate_percent": 0.0
+        },
+        "collapsed_whitespace": {
+            "sample_size": 5000,
+            "changed_predictions": 0,
+            "prediction_change_rate_percent": 0.0
+        }
+    },
+    "interpretation_note": "Prediction change rates measure sensitivity to these specific text transformations. They do not prove real-world robustness or generalization to independent email sources. Lowercase and uppercase changes may be naturally handled by the vectorizer; whitespace changes may or may not alter tokenization."
+}

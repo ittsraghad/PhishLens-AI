@@ -1,0 +1,161 @@
+{
+    "experiment": "Classification threshold comparison",
+    "model": "TF-IDF + Logistic Regression",
+    "training_dataset": "data/processed/train_model.csv",
+    "validation_dataset": "data/processed/validation.csv",
+    "training_rows": 135975,
+    "validation_rows": 33992,
+    "random_state": 42,
+    "thresholds": [
+        {
+            "threshold": 0.2,
+            "accuracy": 0.9496057895975524,
+            "precision": 0.9068001380738695,
+            "recall": 0.9941343424787134,
+            "f1_score": 0.9484610524415561,
+            "true_negatives": 16517,
+            "false_positives": 1620,
+            "false_negatives": 93,
+            "true_positives": 15762,
+            "confusion_matrix": [
+                [
+                    16517,
+                    1620
+                ],
+                [
+                    93,
+                    15762
+                ]
+            ]
+        },
+        {
+            "threshold": 0.3,
+            "accuracy": 0.9639032713579666,
+            "precision": 0.936240009543123,
+            "recall": 0.9900346893724378,
+            "f1_score": 0.962386192943196,
+            "true_negatives": 17068,
+            "false_positives": 1069,
+            "false_negatives": 158,
+            "true_positives": 15697,
+            "confusion_matrix": [
+                [
+                    17068,
+                    1069
+                ],
+                [
+                    158,
+                    15697
+                ]
+            ]
+        },
+        {
+            "threshold": 0.4,
+            "accuracy": 0.9723170157684161,
+            "precision": 0.9574285363759047,
+            "recall": 0.9844213181961526,
+            "f1_score": 0.970737320023634,
+            "true_negatives": 17443,
+            "false_positives": 694,
+            "false_negatives": 247,
+            "true_positives": 15608,
+            "confusion_matrix": [
+                [
+                    17443,
+                    694
+                ],
+                [
+                    247,
+                    15608
+                ]
+            ]
+        },
+        {
+            "threshold": 0.5,
+            "accuracy": 0.9751412096963992,
+            "precision": 0.9707690377618868,
+            "recall": 0.9760958688111006,
+            "f1_score": 0.9734251658961537,
+            "true_negatives": 17671,
+            "false_positives": 466,
+            "false_negatives": 379,
+            "true_positives": 15476,
+            "confusion_matrix": [
+                [
+                    17671,
+                    466
+                ],
+                [
+                    379,
+                    15476
+                ]
+            ]
+        },
+        {
+            "threshold": 0.6,
+            "accuracy": 0.9738467874794069,
+            "precision": 0.9797409924349275,
+            "recall": 0.9638599810785241,
+            "f1_score": 0.971735605506629,
+            "true_negatives": 17821,
+            "false_positives": 316,
+            "false_negatives": 573,
+            "true_positives": 15282,
+            "confusion_matrix": [
+                [
+                    17821,
+                    316
+                ],
+                [
+                    573,
+                    15282
+                ]
+            ]
+        },
+        {
+            "threshold": 0.7,
+            "accuracy": 0.9686985172981878,
+            "precision": 0.9873476112026359,
+            "recall": 0.9450015767896562,
+            "f1_score": 0.9657106026426039,
+            "true_negatives": 17945,
+            "false_positives": 192,
+            "false_negatives": 872,
+            "true_positives": 14983,
+            "confusion_matrix": [
+                [
+                    17945,
+                    192
+                ],
+                [
+                    872,
+                    14983
+                ]
+            ]
+        },
+        {
+            "threshold": 0.8,
+            "accuracy": 0.946840433043069,
+            "precision": 0.9934663481804131,
+            "recall": 0.8918953011668244,
+            "f1_score": 0.9399448303366679,
+            "true_negatives": 18044,
+            "false_positives": 93,
+            "false_negatives": 1714,
+            "true_positives": 14141,
+            "confusion_matrix": [
+                [
+                    18044,
+                    93
+                ],
+                [
+                    1714,
+                    14141
+                ]
+            ]
+        }
+    ],
+    "selection_policy": "No threshold is automatically selected. Compare validation metrics and error counts before choosing.",
+    "label_1_meaning": "Phishing, spam, and scam emails grouped by the source dataset.",
+    "test_dataset_used_for_threshold_selection": false
+}

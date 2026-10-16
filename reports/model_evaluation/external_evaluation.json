@@ -1,0 +1,61 @@
+{
+    "model": "TF-IDF + Logistic Regression",
+    "evaluation_type": "Exploratory external evaluation after exact-text overlap removal",
+    "original_valid_external_rows": 20300,
+    "exact_overlap_rows_removed": 19240,
+    "conflicting_label_rows_removed": 0,
+    "repeated_rows_removed": 0,
+    "evaluation_rows": 1060,
+    "label_counts": {
+        "0": 963,
+        "1": 97
+    },
+    "accuracy": 0.9915094339622641,
+    "precision_class_1": 0.9680851063829787,
+    "recall_class_1": 0.9381443298969072,
+    "f1_class_1": 0.9528795811518325,
+    "confusion_matrix_labels_0_1": [
+        [
+            960,
+            3
+        ],
+        [
+            6,
+            91
+        ]
+    ],
+    "classification_report": {
+        "Safe-labeled (0)": {
+            "precision": 0.9937888198757764,
+            "recall": 0.9968847352024922,
+            "f1-score": 0.995334370139969,
+            "support": 963.0
+        },
+        "Phishing/spam-labeled (1)": {
+            "precision": 0.9680851063829787,
+            "recall": 0.9381443298969072,
+            "f1-score": 0.9528795811518325,
+            "support": 97.0
+        },
+        "accuracy": 0.9915094339622641,
+        "macro avg": {
+            "precision": 0.9809369631293776,
+            "recall": 0.9675145325496997,
+            "f1-score": 0.9741069756459007,
+            "support": 1060.0
+        },
+        "weighted avg": {
+            "precision": 0.9914366876033224,
+            "recall": 0.9915094339622641,
+            "f1-score": 0.9914493564306772,
+            "support": 1060.0
+        }
+    },
+    "limitations": [
+        "Exact text overlap was checked after stripping outer whitespace.",
+        "Near-duplicates, quoted replies, and related email threads may remain.",
+        "The external source may overlap with the source datasets used for training.",
+        "Label 1 may include spam or scam emails, not only phishing.",
+        "Results are exploratory and do not establish real-world security performance."
+    ]
+}

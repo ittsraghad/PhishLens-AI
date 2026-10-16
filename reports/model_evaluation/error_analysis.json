@@ -1,0 +1,24 @@
+{
+    "testing_rows": 42443,
+    "total_errors": 998,
+    "false_positives": 565,
+    "false_negatives": 433,
+    "confusion_matrix": [
+        [
+            22040,
+            565
+        ],
+        [
+            433,
+            19405
+        ]
+    ],
+    "email_length_analysis": {
+        "correct_predictions_average_length": 1713.6561467004465,
+        "true_negative_average_length": 2156.5149274047185,
+        "true_positive_average_length": 1210.6616851326978,
+        "false_positive_average_length": 4899.985840707965,
+        "false_negative_average_length": 1489.0346420323326
+    },
+    "note": "Label 1 includes phishing, spam, and scam emails as grouped by the source dataset."
+}
